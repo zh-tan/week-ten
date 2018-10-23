@@ -20,7 +20,7 @@ describe("Vue component tests", () => {
     expect(typeof App.data).toBe("function");
     const defaultData = App.data();
     // And there should be localCharts.
-    expect(typeof defaultData).toBe("object");
+    expect(defaultData.title).toBe("IM THE BEST SHIT OF ALL");
   });
   it("There should be local chart data.", () => {
     const defaultData = App.data();
