@@ -10,7 +10,7 @@ export default {
   name: `App`,
   data() {
     return {
-      haha: "1234",
+      haha: "5678",
       currentChart: "localBarData",
       localBarData: [
         ["Jan", 4],
@@ -23,6 +23,7 @@ export default {
     };
   },
   methods: {
+    change() {},
     updateCurrentChart: function(newChart) {}
   },
   firebase: {
