@@ -23,6 +23,9 @@ export default {
     };
   },
   methods: {
+    change() {
+      return true;
+    },
     updateCurrentChart: function(newChart) {}
   },
   firebase: {
