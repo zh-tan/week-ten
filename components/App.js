@@ -10,7 +10,7 @@ export default {
   name: `App`,
   data() {
     return {
-      haha: "1234",
+      haha: "5678",
       currentChart: "localBarData",
       localBarData: [
         ["Jan", 4],
