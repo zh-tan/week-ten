@@ -2,6 +2,10 @@ import Vue from "vue";
 import App from "./components/App.js";
 
 describe("Vue component tests", () => {
+  it("deal with the error =D", () => {
+    const a = App.data().haha;
+    expect(a).toBe("5678");
+  });
   it("An example test should pass.", () => {
     expect(2).toEqual(2);
   });
